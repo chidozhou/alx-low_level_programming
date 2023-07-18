@@ -1,14 +1,15 @@
 /**
  * main - The Entry Point
- * Desc: 'prints the alphabet, in lowercase'
+ * Desc: 'prints lowercase'
  * Return: On success 1.
  */
 void print_alphabet(void)
 {
 	char cha;
 
-	for (cha= 'a'; cha <= 'z'; cha++)
+	for (cha = 'a'; cha <= 'z'; cha++)
+	{
 		_putchar(cha);
-
+	}
 	_putchar('\n');
 }
