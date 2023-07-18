@@ -1,15 +1,15 @@
+#include "main.h"
+
 /**
- * main - The Entry Point
- * Desc: 'prints lowercase'
- * Return: On success 1.
+ * print_alphabet - printing lowercase alphabet letters
  */
+
 void print_alphabet(void)
 {
-	char cha;
+	char letters;
 
-	for (cha = 'a'; cha <= 'z'; cha++)
-	{
-		_putchar(cha);
-	}
+	for (letters = 'a'; letters <= 'z'; letters++)
+		_putchar(letters);
+
 	_putchar('\n');
 }
